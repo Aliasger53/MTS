@@ -21,6 +21,11 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 
+// Images import
+// featured products
+import instrumentation_fittings from "./Home/Featured__products/Images/instrumentation_fittings.jpg";
+import instrumentation_valves from "./Home/Featured__products/Images/instrumentation_valves.jpg";
+
 // Our services data
 
 const product__data = [
@@ -425,7 +430,21 @@ const contact__list = [
   },
 ];
 
+const featured__products = [
+  {
+    featured__name: "Instrumentation Fittings",
+    featured__img: instrumentation_fittings,
+    featured__link: "#",
+  },
+  {
+    featured__name: "Instrumentation Valves",
+    featured__img: instrumentation_valves,
+    featured__link: "#",
+  },
+];
+
 export { product__data };
 export { resource__data };
 export { industries__list };
 export { contact__list };
+export { featured__products };

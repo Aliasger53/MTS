@@ -1,0 +1,39 @@
+.featured__col img {
+    margin-bottom: 2rem;
+    width: 400px;
+    height: 400px;
+}
+
+.featured__row {
+    gap: 2rem;
+    overflow: hidden;
+}
+
+.featured__col {
+    border: 2px solid var(--color-sub-heading-text);
+    margin: 0;
+    padding: 0;
+}
+
+.featured__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.featured__col a {
+    text-decoration: none;
+    color: var(--color-sub-heading-text);
+    font-size: 2rem;
+}
+
+.featured__col a:hover img {
+    width: 450px;
+    height: 450px;
+}
+
+.featured__col a:hover {
+    color: var(--color-text-hover);
+}
