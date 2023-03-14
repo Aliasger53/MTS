@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c9023b8.css",
-    "main.js": "/static/js/main.bdb41990.js",
-    "static/js/787.cbad6130.chunk.js": "/static/js/787.cbad6130.chunk.js",
-    "static/media/industry2.jpg": "/static/media/industry2.279e89711cc3081b21cb.jpg",
-    "static/media/instrumentation_valves.jpg": "/static/media/instrumentation_valves.ce13e60272c9e4001592.jpg",
-    "static/media/instrumentation_fittings.jpg": "/static/media/instrumentation_fittings.a330a74e640753b04171.jpg",
-    "static/media/industry1.avif": "/static/media/industry1.50845786756ed550189d.avif",
-    "static/media/logo512.png": "/static/media/logo512.e3aff0118d7d0f5e0b5b.png",
-    "static/media/industry3.jpg": "/static/media/industry3.8fb6beb1e445b60db30e.jpg",
-    "index.html": "/index.html",
-    "main.5c9023b8.css.map": "/static/css/main.5c9023b8.css.map",
-    "main.bdb41990.js.map": "/static/js/main.bdb41990.js.map",
-    "787.cbad6130.chunk.js.map": "/static/js/787.cbad6130.chunk.js.map"
+    "main.css": "/MTS/static/css/main.5ed962d6.css",
+    "main.js": "/MTS/static/js/main.9555e433.js",
+    "static/js/787.cbad6130.chunk.js": "/MTS/static/js/787.cbad6130.chunk.js",
+    "static/media/industry2.jpg": "/MTS/static/media/industry2.279e89711cc3081b21cb.jpg",
+    "static/media/instrumentation_valves.jpg": "/MTS/static/media/instrumentation_valves.ce13e60272c9e4001592.jpg",
+    "static/media/instrumentation_fittings.jpg": "/MTS/static/media/instrumentation_fittings.a330a74e640753b04171.jpg",
+    "static/media/industry1.avif": "/MTS/static/media/industry1.50845786756ed550189d.avif",
+    "static/media/logo512.png": "/MTS/static/media/logo512.e3aff0118d7d0f5e0b5b.png",
+    "static/media/industry3.jpg": "/MTS/static/media/industry3.8fb6beb1e445b60db30e.jpg",
+    "index.html": "/MTS/index.html",
+    "main.5ed962d6.css.map": "/MTS/static/css/main.5ed962d6.css.map",
+    "main.9555e433.js.map": "/MTS/static/js/main.9555e433.js.map",
+    "787.cbad6130.chunk.js.map": "/MTS/static/js/787.cbad6130.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c9023b8.css",
-    "static/js/main.bdb41990.js"
+    "static/css/main.5ed962d6.css",
+    "static/js/main.9555e433.js"
   ]
 }
