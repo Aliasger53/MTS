@@ -1,0 +1,121 @@
+.foot {
+    display: grid;
+    grid-template-columns: 17% 17% 31% 1fr;
+    background-color: var(--color-bg-light);
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    color: var(--color-sub-heading-text);
+    justify-content: center;
+}
+
+.foot a {
+    text-decoration: none;
+    color: var(--color-sub-heading-text);
+    font-size: 0.85rem;
+    margin-left: 0;
+    margin-right: 1.50rem;
+    text-align: center;
+}
+
+.foot a:hover {
+    color: var(--color-text-hover);
+    font-size: 0.87rem;
+    text-align: center;
+}
+
+.foot li {
+    padding-bottom: 0;
+}
+
+.foot h4 {
+    font-size: 1.1rem;
+}
+
+.foot ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+#about {
+    border-right: 0.05rem solid var(--color-sub-heading-text);
+}
+
+#resources {
+    border-right: 0.05rem solid var(--color-sub-heading-text);
+}
+
+#contact {
+    border-right: 0.05rem solid var(--color-sub-heading-text);
+    padding-right: 0;
+}
+
+.about__col {
+    margin: 0 0 0 1.5rem;
+}
+
+.about__col ul {
+    padding: 0;
+    margin: 0;
+}
+
+.resources__col ul {
+    margin-left: 1rem;
+    padding: 0;
+}
+
+
+div#contact {
+    margin: 0 0 0 1rem;
+}
+
+.contact ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+.address {
+    background-image: url("../../Assets/Footer/Template/worldMap.png");
+    background-repeat: no-repeat;
+    background-size: 20.80rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 00.85rem;
+}
+
+.policy {
+    margin: 0;
+    padding: 0;
+    padding-top: 1.5rem;
+    border-top: 0.05rem solid rgba(255, 255, 255, 0.247);
+    justify-content: center;
+}
+
+.final {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    padding-bottom: 0.6rem;
+    color: rgba(240, 248, 255, 0.651);
+    font-size: 0.75rem;
+}
+
+@media screen and (max-width:992px) {
+    .foot {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem
+    }
+
+    .about__col {
+        margin: 0 0 0 1rem;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .foot {
+        grid-template-columns: 1fr;
+        gap: 1rem
+    }
+}

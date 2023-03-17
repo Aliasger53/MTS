@@ -13,7 +13,7 @@
 
 
 .nav-item a:hover {
-    color: var(--color-text-hover);
+    color: var(--color-text-hover) !important;
 }
 
 .logo {
@@ -24,6 +24,7 @@
 .nav-item {
     margin-top: 2rem;
 }
+
 
 .down:hover .drop__down {
     opacity: 1;
@@ -61,6 +62,9 @@
     display: none;
 }
 
+.active {
+    color: var(--color-text-hover) !important;
+}
 
 @media screen and (max-width:992px) {
     .drop__down {
@@ -84,9 +88,14 @@
 
     .dropdown-menu.drop__down.product__down.show {
         display: contents !important;
+        width: 100%;
     }
 
     .dropdown-menu.drop__down.recource__down.show {
         display: contents !important;
+    }
+
+    .subMenu__list {
+        display: none;
     }
 }

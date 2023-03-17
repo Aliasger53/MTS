@@ -5,6 +5,7 @@
 }
 
 .featured__row {
+    margin-bottom: 2rem;
     gap: 2rem;
     overflow: hidden;
 }
@@ -29,9 +30,9 @@
     font-size: 2rem;
 }
 
-.featured__col a:hover img {
-    width: 450px;
-    height: 450px;
+.featured__col img:hover {
+    width: 410px;
+    height: 410px;
 }
 
 .featured__col a:hover {
